@@ -10,6 +10,11 @@ router.get('/api/notes', (req,res)=>{
     })
 })
 
+router.delete('/api/notes:id', (req,res)=>{
+    deleteNotes(req.params.id)
+    res.status(200).send()
+})
+
 router.post('/api/notes', (req,res)=>{
     const dbData= JSON.parse(fs.readFileSync("db/db.json"));
         const newNotes = req
