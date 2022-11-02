@@ -1,4 +1,5 @@
 # Note-Taker
+<img src = "./Assets/screenshot.png">
   <img src= "https://img.shields.io/badge/License--green.svg">
        
   ## Description
